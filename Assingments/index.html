@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+   <section class="container mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class=" text-xl font-semibold">TODO Mania</a>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+        </div>
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+          </div>
+          <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+            <li>
+              <a class="justify-between">
+                Profile
+                <span class="badge">New</span>
+              </a>
+            </li>
+            
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+   </section>
+    </div>
+
+  </header>
+
+  <main class="container mx-auto mt-12">
+    <!-- to do  -->
+    <section >
+      <div class="join join-vertical w-full">
+        <div class="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" checked="checked" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" /> 
+          <div class="collapse-title text-xl font-medium">
+            Click to open this one and close others
+          </div>
+          <div class="collapse-content"> 
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-24" >
+      
+     
+
+      <div
+        class="flex gap-20 flex-col lg:flex-row justify-center items-center"
+      >
+        <div class="text-center">
+          <div
+            class="radial-progress bg-white text-red-500"
+            style="--value: 87"
+            role="progressbar"
+          >
+            87%
+          </div>
+          <h2 class="text-xl font-manrope text-center">Task 1</h2>
+          <p class="font-manrope"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis facere rerum?</p>
+        </div>
+        <div class="text-center">
+          <div
+            class="radial-progress bg-white text-green-500"
+            style="--value: 95"
+            role="progressbar"
+          >
+            95%
+          </div>
+          <h2 class="text-xl font-manrope text-center">Task2</h2>
+          <p class="font-manrope">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis facere rerum?
+          </p>
+        </div>
+        <div class="text-center">
+          <div
+            class="radial-progress bg-white text-orange-500"
+            style="--value: 90"
+            role="progressbar"
+          >
+            90%
+          </div>
+          <h2 class="text-xl font-manrope text-center">Task3</h2>
+          <p class="font-manrope">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis facere rerum?
+          </p>
+        </div>
+        <div class="text-center">
+          <div
+            class="radial-progress bg-white text-blue-500"
+            style="--value: 80"
+            role="progressbar"
+          >
+            80%
+          </div>
+          <h2 class="text-xl font-manrope text-center">task2</h2>
+          <p class="font-manrope">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis facere rerum?
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center mt-10">
+        <button class="btn btn-accent flex ml-[780px] w-[300px] ">Accent</button>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
